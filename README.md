@@ -1,4 +1,4 @@
-# Random Quote Generator
+# Random Quote Generator - FrontendPro Solution
 
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=flat&logo=html5&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?&style=flat&logo=bootstrap&logoColor=white)
@@ -44,8 +44,8 @@ This is a solution to the [Random Quote Generator Challenge](https://www.fronten
 
 ### Links
 
-- **Live**: [Live Demo](#)
-- **Solution**: [Solution](#)
+- **Live**: [Live Demo](https://yashi-singh-9.github.io/Random-Quote-Generator/)
+- **Solution**: [Solution](https://www.frontendpro.dev/frontend-coding-challenges/random-quote-generator-8L8ocgPccZaBeqLjpSLK/solutions/V4AwxIntLgNLXbJZ1XWr)
 
 ---
 
