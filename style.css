@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 700 !important;
+  font-style: italic !important;
+  background: url('images/background-desktop.png') no-repeat;
+  background-size: cover;
+}
+main {
+  margin: 5rem auto 2rem auto;
+}
+main .quote-container {
+  background-color: rgba(223, 219, 229, 0.56);
+  max-width: 1009px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 1040px) {
+  main .quote-container {
+    width: 90%;
+  }
+}
+main .quote-container img {
+  width: 161px;
+  height: 141px;
+}
+main .quote-container .advice-text {
+  font-size: 3.5rem;
+  color: #364BA7;
+  max-width: 806px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  main .quote-container .advice-text {
+    font-size: 2.5rem;
+  }
+}
+main .quote-container hr {
+  border: 1px solid #364BA7;
+  max-width: 680.01px;
+  width: 100%;
+  margin: 0 auto;
+}
+main .quote-container .author {
+  font-size: 3rem;
+  color: #F583A7;
+}
+@media (max-width: 768px) {
+  main .quote-container .author {
+    font-size: 2rem;
+  }
+}
+main .quote-container .btn {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+}
+main .quote-container .btn i {
+  font-size: 2rem;
+  color: #DFDBE5;
+  background-color: #364BA7;
+  height: 69px;
+  width: 69px;
+  transition: 0.3s ease;
+}
+main .quote-container .btn i:hover {
+  background-color: #4b62c5;
+  transform: scale(1.05);
+}
+@media (max-width: 425px) {
+  main .quote-container .btn i {
+    font-size: 1.6rem;
+    height: 45px;
+    width: 45px;
+  }
+}
+main .quote-container .btn .generator {
+  background-color: #364BA7;
+  color: #F583A7;
+  max-width: 230px;
+  width: 100%;
+  font-size: 2.25rem;
+  transition: 0.3s ease;
+}
+main .quote-container .btn .generator:hover {
+  background-color: #4b62c5;
+  transform: scale(1.05);
+}
+@media (max-width: 425px) {
+  main .quote-container .btn .generator {
+    font-size: 1.6rem;
+    max-width: 180px;
+  }
+}
+footer {
+  color: #364BA7;
+  background-color: rgba(223, 219, 229, 0.7);
+  width: 90%;
+  margin: 0 auto;
+}
+footer a,
+footer a:visited {
+  color: #F583A7;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css"> <!-- CSS Style Link -->
+    <link rel="shortcut icon" href="images/icon.svg" type="image/x-icon"> <!-- LOGO Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> <!-- Icons Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <!-- Bootstrap Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> <!-- Fonts Link -->
+
+    <title>Random Quote Generator</title>
+</head>
+<body>
+    <main>
+        <section class="quote-container p-3 rounded-3 text-center">
+            <img src="images/quote-top.png" alt="Quote" class="mb-5 mt-5">
+            <p class="advice-text mb-4" id="advice-text"><!-- Advice text goes here --></p>
+            <hr>
+            <span class="author d-block mt-4 mb-3"></span>
+            <section class="btn d-flex justify-content-between flex-wrap gap-3">
+                <i class="fa-brands fa-twitter rounded-3 d-flex justify-content-center align-items-center"></i>
+                <button class="generator border-0 rounded-3 p-2" id="new-quote" onclick="getQuote()">New Quote</button>
+            </section>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        Challenge by <a href="https://www.frontendpro.dev/frontend-coding-challenges" target="_blank"class="text-decoration-none">Frontend Pro</a>. Coded by <a href="https://www.linkedin.com/in/yashi-singh-b4143a246" target="_blank" class="text-decoration-none">Yashi Singh</a>.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
