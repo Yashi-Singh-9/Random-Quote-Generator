@@ -1,0 +1,5 @@
+*.css linguist-detectable=true
+*.scss linguist-detectable=true
+bootstrap.min.css linguist-detectable=true
+bootstrap.css linguist-detectable=true
+bootstrap.scss linguist-detectable=true
